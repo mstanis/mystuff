@@ -5,10 +5,20 @@ filetype plugin indent on
 
 set number
 
-let g:pymode_options = 0
+let g:pymode = 1
+let g:pymode_options = 1
 let g:pymode_lint_write = 0 
 let g:pymode_folding = 0 
 let g:pymode_rope_vim_completion = 0 
+let g:pymode_indent = 1
+let g:pymode_folding = 1
+let g:pymode_run = 1
+let g:pymode_run_bind = '<leader>r'
+let g:pymode_breakpoint = 1
+let g:pymode_breakpoint_bind = '<leader>b'
+let g:pymode_breakpoint_cmd = ''
+
+
 
 nmap <F8> :TagbarToggle<CR>
 
